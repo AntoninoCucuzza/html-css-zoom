@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-settings: #494949 ;
+    --bg-header: #000000 ;
+    --bg-main: #000000 ;
+    --bg-footer: #222222 ;
+    --white: #fff;
+    --share-screen: #4bc800 ;
+    --bg-exit: #4a4a4a;
+    --exit-call: #ae3130 ;
+}
+
+
+
+/* #region debug */
+
+.debug header{
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: end;
+}
+
+.debug .settings{
+    height: 50px;
+    background-color: black;
+    width: 150px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.debug .view{
+    height: 100%;
+    width: 50%;
+    background-color: beige;
+    
+    top: 0;
+    left: 0;
+}
+
+.debug .fullscreen{
+    height: 100%;
+    width: 40%;
+    background-color: blueviolet;
+ 
+    top: 0;
+    left: 0;
+}
+/* end header */
+
+
+.debug main{
+    height: calc(100vh - 100px - 150px);
+    width: 100%;
+    background-color: blue;
+}
+
+.debug .row{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.debug .col-6{
+    width:calc(100%/12*2);
+    background-color: brown;
+    flex-direction: row;
+    
+}
+.debug .card{
+    background-color: blueviolet;
+    height: 200px;
+    margin: 0.5rem;
+}
+
+/* end main */
+
+.debug footer{
+    height: 150px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+
+.debug .manage{
+    background-color: black;
+    height: 100%;
+    width: 10%;
+}
+
+.debug .tools{
+    background-color: black;
+    height: 100%;
+    width: 50%;
+
+}
+
+.debug .exit{
+    background-color: black;
+    height: 100%;
+    width: 10%;
+
+}
+
+/* end footer */
+
+
+/* #endregion debug */
