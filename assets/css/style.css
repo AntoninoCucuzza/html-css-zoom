@@ -30,6 +30,7 @@ footer{
     background-color: var(--bg-footer);
     color: var(--white);
     align-items: center;
+    
 }
 
 i{
@@ -156,6 +157,9 @@ i{
 
 
 /* #region main */
+.overflow{
+    overflow: auto;
+}
 
 .card{
     margin:  0.5rem 0.25rem;
@@ -176,31 +180,36 @@ i{
 
 /* #region footer */
 
-
-.overflow{
-    overflow: auto;
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
 }
 
-.manage{
-
+.manage .exit{
+    align-items: center;
 }
 
 .tools{
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
-
 .exit{
     color: var(--exit-call);
     background-color: var(--bg-exit);
-    line-height: 100px;
     padding: 0 1.5rem;
     height: 100%;
+    align-items: center;
+
 }
 
-.exit span{
-    
-   
-}
+
+
 /* #endregion footer */
 
 /* #region utilities */
@@ -215,10 +224,6 @@ i{
     padding: 1rem;
 }
 
-
-.col-7{
-    width:calc(100%/14*2);
-}
 .d-flex{
     display: flex;
 }
@@ -226,7 +231,15 @@ i{
 .justify-end{
     justify-content: end;
 }
+
 .justify-between{
     justify-content: space-between;
 }
+
+
+
+.col-7{
+    width:calc(100%/14*2);
+}
+
 /* #endregion utilities */
