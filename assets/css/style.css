@@ -163,9 +163,10 @@ i{
 
 .card{
     margin:  0.5rem 0.25rem;
- ;
+    height: 200px;
     position: relative;
     color: var(--white);
+
 }
 .overlay{
     background-color: #0000007a;
@@ -222,6 +223,7 @@ i{
     flex-wrap: wrap;
     width: 100%;
     padding: 1rem;
+    
 }
 
 .d-flex{
@@ -237,10 +239,9 @@ i{
 }
 
 
-
 .col-7{
-    width:calc(100%/14*2);
-    flex-wrap: wrap;
+    max-width:calc(100%/14*2);
+   
 }
 
 /* #endregion utilities */
