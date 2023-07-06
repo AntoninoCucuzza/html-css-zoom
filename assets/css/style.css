@@ -163,7 +163,7 @@ i{
 
 .card{
     margin:  0.5rem 0.25rem;
-    height: 200px;
+ ;
     position: relative;
     color: var(--white);
 }
@@ -240,6 +240,7 @@ i{
 
 .col-7{
     width:calc(100%/14*2);
+    flex-wrap: wrap;
 }
 
 /* #endregion utilities */
