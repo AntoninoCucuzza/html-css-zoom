@@ -162,10 +162,10 @@ i{
 }
 
 .card{
-    margin:  0.5rem 0.25rem;
-    height: 200px;
-    position: relative;
+    margin: 0.5rem 0.25rem;
     color: var(--white);
+    position: relative;
+    overflow: hidden;
 
 }
 .overlay{
@@ -221,6 +221,7 @@ i{
 }
 .row{
     flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
     padding: 1rem;
     
@@ -240,8 +241,8 @@ i{
 
 
 .col-7{
-    max-width:calc(100%/14*2);
-   
+    min-width:calc(100%/14*2);    
+    flex-wrap: wrap;
 }
 
 /* #endregion utilities */
